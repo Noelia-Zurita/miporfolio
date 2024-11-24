@@ -1,69 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
+*{
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
-}
-
-nav {
-    color: #ddd;
-    list-style: none;
-    padding: 0;
+/*MENU superior*/
+.menu{
+    background-color:black;
+    height: 7vh;
     display: flex;
-    justify-content: center;
-    margin: 0 30px;
+    justify-content: space-around;
+    font-weight: 800;
+    align-items: center;
+}
+
+/*modificación de la etiqueta a, para las LETRAS del menú*/
+a{
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-/* Esta es la edición del Hero */
-#home {
-    text-align: center;
-    padding: 50px 0;
-}
-
-#profile {
-    text-align: center;
-    margin: 20px 0;
-}
- /*detalles de la imagen*/
-.profile-img {
-    width: 35%;
-    height: 35%;
-    border-radius: 50%;
-    background: #ccc; /* Placeholder background */
-}
-
-.resume-link {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px 20px;
-    background-color: purple;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.rating {
-    color: gold;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-}
-
-.social-links li {
-    margin: 0 10px;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: #333;
-}
