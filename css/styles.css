@@ -9,24 +9,15 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-nav ul {
+nav {
     color: #ddd;
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-}
-
-nav li {
     margin: 0 30px;
-}
-
-nav a {
     text-decoration: none;
     color: #333;
-}
-
-nav a.active {
     font-weight: bold;
 }
 
