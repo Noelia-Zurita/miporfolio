@@ -10,6 +10,7 @@ header {
 }
 
 nav ul {
+    color: #ddd;
     list-style: none;
     padding: 0;
     display: flex;
@@ -17,7 +18,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 nav a {
@@ -29,6 +30,7 @@ nav a.active {
     font-weight: bold;
 }
 
+/* Esta es la edición del Hero */
 #home {
     text-align: center;
     padding: 50px 0;
@@ -38,10 +40,10 @@ nav a.active {
     text-align: center;
     margin: 20px 0;
 }
-
+ /*detalles de la imagen*/
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 35%;
+    height: 35%;
     border-radius: 50%;
     background: #ccc; /* Placeholder background */
 }
