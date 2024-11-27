@@ -21,3 +21,19 @@ a{
     cursor: pointer;
 }
 
+.hero {
+    background-color: aqua;
+    border: 5px solid blue;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*esta etiqueta es para separar en columnas*/
+    flex-direction: column;
+}
+img Foto-Nooa{
+
+
+}
+
+
