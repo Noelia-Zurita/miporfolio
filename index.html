@@ -3,79 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Nooa's Porfolio</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Nooa's Porfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
     <header>
-        <img src="Logo" alt="">
-        <!--MENU-->
-        <nav class="menu">
-            <a href="Inicio">Inicio</a>
-            <a href="acerca">Acerca de Mi</a>
-            <a href="blog">Blog</a>
-            <a href="contacto">Contacto</a>
+        <div class="logotag">
+            <img src="" alt="Tag-Nooa">
+        </div>
+        <nav class="menu efectobotom">
+            <a href="#acercademi">acerca de mi</a>
+            <a href="#servicios">servicios</a>
+            <a href="#trabajos">trabajos</a>
+            <a href="#contactame">contactame</a>
         </nav>
     </header>
-
-
-    <main>
-        <!-- Aca dejo mi HERO -->
-    <section class="hero">
-        <div>
-            <h1>Hola Mundo!</h1>
-            <h2>Mi nombre es Noelia, pero pueden llamarme NOOA</h2>
-        </div>
-        <img src="img/Nooa.jpeg" alt="Foto-Mia" class="Foto-Nooa">
-        <div>
-            <p>"Que tus sueños sean más grandes <br>
-            que tus miedos,<br>
-            que la vida sea un juego<br>
-            que siempre quedes primero.<br>
-            <br>
-            Que tu tiempo no se escape<br>
-            entre tus dedos<br>
-            y que todas esas dudas que te aterran<br>
-            se conviertan en SÍ PUEDO."</p>
-        </div>   
-
-            <button>Descargar CV</button>
-    </section>
+        
     
-    <section>
-        <h2>Subtitulo</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim dolor quos est fugit sed dolorem dolorum, ea, perferendis magni sint similique necessitatibus accusamus? Architecto nesciunt voluptate tempore natus esse autem.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis numquam porro nobis soluta praesentium magni, hic facere sunt iure sed quisquam doloribus cumque voluptatem accusantium doloremque odit nostrum voluptatum dolores?</p>
+    <main>
+        <section class="hero">
+            <div class="presentacion">
+                <h1>Hola, soy Nooa</h1>
+                <p>Soy desarrolladora en FrondEnd <br> y Profe de Ed. Física.</p>
 
-    </section>
+            </div>
+            <img src="img/Nooa.jpg" class="fotoNooa" alt="foto-Nooa">
+        </section>
 
-    <section>
-        <h2>Subtitulo 3</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla natus quibusdam necessitatibus. Optio impedit modi officia, enim asperiores accusamus, veniam vel reprehenderit suscipit possimus ipsam nisi, atque velit iusto mollitia.</p>
-        <img src="" alt="">
-    </section>
+        <section class="altura coloracercademi">
 
+            <h2 id="acercademi">Acerca de mi</h2>
+            <p class="mitexto">Mi nombre real es Noelia Zurita, pero pueden decirme Nooa. Trabajé como Profe de Ed. Física durante 3 años y en el transcurso de la carrera me di cuenta que en realidad me apaciona la Seguridad Informática. Actualmente me encuentro estudiando Analisis de Sistemas y bla bla bla... Si tengo tiempo agrego una imagen <br>
+            <br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odit qui assumenda consequuntur accusamus delectus doloribus vel unde laboriosam ad tempora corporis reprehenderit non earum dignissimos optio, molestiae alias blanditiis!    
+            </p>
 
-    <section>
-        <img src="" alt="">
-        <h2></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolor obcaecati natus ex expedita quo voluptatum, sed commodi saepe facere nostrum pariatur autem, incidunt sit cum dolorem rem voluptatem soluta.</p>
+        </section>
 
-    </section>
+        <section class="altura colorservicio">
 
-</main>
+            <h2 id="servicios">SERVICIOS</h2>
+            <div class="divservicios">
+                <div class="uno">
+                    <img src="img/campamento.jpg" alt="recreación" class="imagenes">
+                    <h3>Recreación</h3>
+                </div>
+            
+                <div class="uno">
+                    <img src="img/python.png" alt="python" class="imagenes">
+                    <h3>Python</h3>
+                </div>
 
+                <div class="uno">
+                    <img src="img/html.png" alt="hmlt" class="imagenes">
+                    <h3>HTML</h3>
+                </div>
 
+                <div class="uno">
+                    <img src="img/css.png" alt="css" class="imagenes">
+                    <h3>CSS</h3>
+                 </div>
+             </div>
 
+        </section>
+
+        <section class="altura colortrabajo">
+           <h2 id="trabajos"> TRABAJOS</h2>
+           <div class="divtrabajos"> 
+                 <div class="bordetrabajo">
+                    <img src="img/codigo.png" alt="web" class="image">
+                    <h2>Diseño Web</h2>
+                </div>
+
+                <div class="bordetrabajo">
+                    <img src="img/edufisica.jpg" alt="hogar" class="image">
+                    <h2>Profe Ed. Física</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactame">
+            <h2 id="contactame">CONTACTAME</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet minus libero harum minima earum iure tenetur fugiat quis fugit est totam enim illo ipsam voluptate ducimus, ullam, ex iusto recusandae.</p>
+
+            <div class="divlogos">
+                <img src="logosredes/linkedin.png" alt="linkedin" class="logo">
+                <img src="logosredes/github.png" alt="github" class="logo">
+                <img src="logosredes/instagram.png" alt="ig" class="logo">
+                <img src="logosredes/gmail.png" alt="gmail" class="logo">
+            </div>
+
+            <p>Copyright 2024 Nooa. Todos los derechos estan reservados</p>
+        </section>
+
+    </main>
 
 
     <footer>
-        <!--Final de Página-->
-        <ul class="social-links">
-            <li><a href="https://www.behance.net/melanie">Behance</a></li>
-            <li><a href="https://www.linkedin.com/in/melanie">LinkedIn</a></li>
-        </ul>
+
     </footer>
 </body>
 </html>

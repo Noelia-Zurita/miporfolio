@@ -1,39 +1,204 @@
+html {
+    scroll-behavior: smooth;
+
+}
+:root{
+    --color-primario: #b300ff;
+    --color-fondo: #fbeeff;
+    --color-texto: #101011;
+    --color-texto-secundario: white;
+    --color-secundario: #dc82fe;
+    --color-primario-hover: #b300ff;
+    --color-secundario-hover: #555;
+
+}
+/*rasgos generales de la página*/
 *{
     margin: 0;
     padding: 0;
 }
 
-/*MENU superior*/
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/*PARA TODA LA PÁGINA*/
+p{
+    font-size: 20px; 
+}
+h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 1000; /*negrita que no anda*/
+    padding: 0 0 50px 0;
+}
+.altura{
+    height: 70vh;
+    padding: 40px 80px;
+}
+
+/*MENUUUU*/
+.hero{
+    background-color: var(--color-fondo);
+}
+header{
+    display: flex;
+    
+}
+.logotag{
+    width: 50%;
+}
 .menu{
-    background-color:black;
-    height: 7vh;
+    background-color: var(--color-fondo);
+    height: 8vh;
+    width: 50%;
     display: flex;
     justify-content: space-around;
-    font-weight: 800;
+    font-weight: 700;
     align-items: center;
+
 }
 
-/*modificación de la etiqueta a, para las LETRAS del menú*/
-a{
+.menu a{
     text-decoration: none;
-    color: white;
+    color: var(--color-texto);
     text-transform: uppercase;
     cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 15px;
 }
 
-.hero {
-    background-color: aqua;
-    border: 5px solid blue;
+a:hover{
+    background-color: var(--color-secundario);
+    border: var(--color-primario);
+    
+}
+
+/*HEEEEEROOOOO*/
+
+.hero{
     height: 80vh;
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content:flex-start;
+
+}
+
+ /*PRESENTACION*/
+.presentacion {
+    width: 60%;
+    padding: 0 50px 0 75px ;
+    
+
+}
+ .presentacion h1{
+    padding: 40px 0px 40px 0px;
+    font-size: 70px;
+ }
+
+ .presentacion p {
+    padding: 0 0 30px 0;
+ }
+
+ .fotoNooa {
+    border-radius: 55%;
+    height: 70%;
+    padding: 90px; 
+}
+
+/*SECCION SOBRE MI*/
+.mitexto {
+    padding: 0 60px 0 0;
+    justify-content: left;
+}
+.coloracercademi{
+    background-color: white;
+}
+
+/*SECCION SERVICIO*/
+.colorservicio{
+    background-color: white;
+}
+
+.divservicios{
+    
+    display: flex;
     justify-content: center;
-    /*esta etiqueta es para separar en columnas*/
-    flex-direction: column;
-}
-img Foto-Nooa{
-
+    gap: 20px;
+    text-align: center;
 
 }
+.uno{
+   
+    border-radius: 10px;
+    border: 3px solid #b300ff;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 25%;
+}
+.imagenes{
+    border-radius: 2px;
+    padding: 20px 0 0 0 ;
+    height: 150px;
+    justify-content: center;
+    border-radius: 2%;
+}
+.divservicios h3{
+    font-size: 30px;
+    padding: 20px 0;
+}
 
+/*SECCION TRABAJOS*/
 
+.colortrabajo{
+    background-color:  #b300ff;
+}
+.divtrabajos{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+
+}
+.image{
+    border-radius: 2px;
+    padding: 20px 0 0 0 ;
+    height: 180px;
+    justify-content: center;
+
+}
+.bordetrabajo{
+    background-color: var(--color-secundario);
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+.divtrabajos h2{
+    font-size: 30px;
+    padding: 20px 0;
+    color: #fbeeff;
+}
+
+/*CONTACTAME*/
+.contactame{
+    background-color: #240048;
+    height: 40vh;
+    padding: 40px 0 30px 80px;
+    color: white;
+}
+.contactame p{
+    padding: 0 0 20px 0;
+}
+.divlogos{
+    padding: 0 0 40px 0;
+    
+}
+.logo{
+    height: 40px;
+}
+
+/*efectoboton*/
