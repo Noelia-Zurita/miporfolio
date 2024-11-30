@@ -94,17 +94,14 @@ a:hover{
     height: 80vh;
     display: flex;
     align-items: center;
-    
 
 }
 
  /*PRESENTACION*/
 .presentacion {
-    width: 40%;
-    padding: 0 30px 0 75px ;
-    align-items:center;
-    justify-content:flex-start;
-    
+    width: 50%;
+    padding: 0px 80px 0 75px ;
+    align-items:center;  
 
 }
  .presentacion h1{
@@ -118,9 +115,8 @@ a:hover{
  }
 
  .fotoNooa {
-    border-radius: 55%;
-    height: 80%;
-    padding: 90px; 
+    width: 25%;
+    border-radius: 50%;
 }
 
 /*SECCION SOBRE MI*/
