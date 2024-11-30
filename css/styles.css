@@ -19,7 +19,7 @@ html {
 }
 
 body{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: "Fredoka", sans-serif;
     background-color: var(--color-fondo);
     color: var(--color-texto);
 }
@@ -40,25 +40,35 @@ h2{
 }
 
 /*MENUUUU*/
+
 .hero{
     background-color: var(--color-fondo);
+    background-size: cover;
 }
 header{
     display: flex;
-    background-color: var(--color-secundario);
-    
+    background-color: var(--color-fondo);
+    height: 8vh;
+}
+.divtag {
+    width: 50%;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
 }
 .logotag{
-    width: 50%;
+   height: 50px;
+   border-radius: 50px;
+   
+}
+.divtag p {
+    padding: 0 0 0 15px;
 }
 .menu{
-    background-color: var(--color-secundario);
-    height: 8vh;
     width: 50%;
     display: flex;
     justify-content: space-around;
     font-weight: 700;
-    align-items: center;
 
 }
 
@@ -72,7 +82,7 @@ header{
 }
 
 a:hover{
-    background-color: var(--color-primario);
+    background-color: var(--color-secundario);
     border: var(--color-primario);
     color: var(--color-fondo);
     
@@ -83,21 +93,24 @@ a:hover{
 .hero{
     height: 80vh;
     display: flex;
-    align-items:center;
-    justify-content:flex-start;
+    align-items: center;
+    
 
 }
 
  /*PRESENTACION*/
 .presentacion {
-    width: 60%;
-    padding: 0 50px 0 75px ;
+    width: 40%;
+    padding: 0 30px 0 75px ;
+    align-items:center;
+    justify-content:flex-start;
     
 
 }
  .presentacion h1{
     padding: 40px 0px 40px 0px;
-    font-size: 70px;
+    font-size: 75px;
+    color: var(--color-texto);
  }
 
  .presentacion p {
@@ -106,7 +119,7 @@ a:hover{
 
  .fotoNooa {
     border-radius: 55%;
-    height: 70%;
+    height: 80%;
     padding: 90px; 
 }
 
@@ -116,7 +129,7 @@ a:hover{
     justify-content: left;
 }
 .coloracercademi{
-    background-color: var(--color-secundario);
+    background-color: white;
 }
 
 /*SECCION SERVICIO*/
@@ -134,7 +147,7 @@ a:hover{
 }
 .uno{
    
-    border-radius: 10px;
+    border-radius: 30px;
     border: 3px solid #b300ff;
     margin-bottom: 10px;
     text-align: center;
@@ -164,8 +177,11 @@ a:hover{
     text-align: center;
 
 }
+.colortrabajo h2{
+    color: var(--color-texto-secundario);
+}
 .image{
-    border-radius: 2px;
+    border-radius: 1px;
     padding: 20px 0 0 0 ;
     height: 180px;
     justify-content: center;
@@ -196,7 +212,7 @@ a:hover{
     padding: 0 0 20px 0;
 }
 .divlogos{
-    padding: 0 0 40px 0;
+    padding: 0 0 60px 0;
     
 }
 .logo{
