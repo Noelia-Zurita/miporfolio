@@ -35,8 +35,12 @@ h2{
     padding: 0 0 50px 0;
 }
 .altura{
-    height: 70vh;
+    height: 80vh;
     padding: 40px 80px;
+}
+h3{
+    font-size: 30px;
+    padding: 20px 0;
 }
 
 /*MENUUUU*/
@@ -81,7 +85,7 @@ header{
     border-radius: 15px;
 }
 
-a:hover{
+.menu a:hover{
     background-color: var(--color-secundario);
     border: var(--color-primario);
     color: var(--color-fondo);
@@ -152,10 +156,6 @@ a:hover{
     width: 40%;
     border-radius: 20%;
 }
-.divservicios h3{
-    font-size: 30px;
-    padding: 20px 0;
-}
 
 /*SECCION TRABAJOS*/
 
@@ -164,19 +164,27 @@ a:hover{
 }
 .divtrabajos{
     display: flex;
-    justify-content: center;
     gap: 10%;
-    text-align: center;
+    height: 70%;
+    background-color: #101011;
 
 }
-.colortrabajo h2{
+.bordetrabajo h3{
     color: var(--color-texto-secundario);
+    text-align: left;
+    padding: 0 0 0 20px;
+    background-color: #240048;
+    align-items: end;
 }
 .image{
     border-radius: 1px;
     padding: 20px 0 0 0 ;
-    height: 180px;
-    justify-content: center;
+    width: 500px;
+}
+.imageCamp{
+    border-radius: 1px;
+    padding: 20px 0 0 0 ;
+    width: 350px;
 
 }
 .bordetrabajo{
@@ -186,11 +194,6 @@ a:hover{
     margin-bottom: 10px;
     text-align: center;
     width: 50%;
-}
-.divtrabajos h2{
-    font-size: 30px;
-    padding: 20px 0;
-    color: #fbeeff;
 }
 
 /*CONTACTAME*/
@@ -208,7 +211,26 @@ a:hover{
     
 }
 .logo{
-    height: 30px;
+    width: 45px;
+    padding: 0 10px ;
 }
 
+.divlogos a{
+    text-decoration: none;
+    color: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.divlogos a{
+        text-decoration: none;
+        color: var(--color-texto);
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 15px;
+    }
+        
 /*efectoboton*/
+/*FOOTER*/
+footer {
+    padding: 0 80px;
+}
